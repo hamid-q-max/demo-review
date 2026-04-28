@@ -1,4 +1,4 @@
-# Demo Review AppP
+# Demo Review AppPP
 
 A small Python demo app intentionally containing realistic issues for AI PR review and unit test generation.
 
