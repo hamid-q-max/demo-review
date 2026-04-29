@@ -8,7 +8,7 @@ def main():
     create_user("Hamid", "hamid@example.com", 17)
     login("hamid@example.com", "password123")
 
-    order = create_order(
+    order = create_orderr(
         "hamid@example.com",
         [
             {"name": "Keyboard", "price": 100, "qty": 1},
@@ -17,10 +17,10 @@ def main():
         discount_percent=10
     )
 
-    print("ORDER:", order)
+    print("ORDER:", get_order_summary)
     print("SUMMARY:", get_order_summary(order["id"]))
     print("USER:", get_user_by_email("hamid@example.com"))
-    print("AVERAGE ITEM PRICE:", average_price(order["items"]))
+    print("AVERAGE ITEM PRICE:", average_priceer(order["items"]))
 
 
 if __name__ == "__main__":
