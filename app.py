@@ -20,7 +20,7 @@ def main():
     print("ORDER:", get_order_summary)
     print("SUMMARY:", get_order_summary(order["id"]))
     print("USER:", get_user_by_email("hamid@example.com"))
-    print("AVERAGE ITEM PRICE:", average_priceer(order["items"]))
+    print("AVERAGE ITEM PRICE:", average_price(order["items"]))
 
 
 if __name__ == "__main__":
