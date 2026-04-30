@@ -8,7 +8,7 @@ def main():
     create_user("Hamid", "hamid@example.com", 17)
     login("hamid@example.com", "password123")
 
-    order = create_orderr(
+    order = create_order(
         "hamid@example.com",
         [
             {"name": "Keyboard", "price": 100, "qty": 1},
