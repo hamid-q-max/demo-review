@@ -17,7 +17,7 @@ def main():
         discount_percent=10
     )
 
-    print("ORDER:", get_order_summary)
+    print("ORDER:", order)
     print("SUMMARY:", get_order_summary(order["id"]))
     print("USER:", get_user_by_email("hamid@example.com"))
     print("AVERAGE ITEM PRICE:", average_price(order["items"]))
